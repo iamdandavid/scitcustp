@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <link rel="icon" href="images/scitclogo.png">
+    <link rel="stylesheet" type="text/css" href="css/contactus.css">
+    <link rel="stylesheet" type="text/css" href="css/contactus_grid.css">
+
+    <title> SCITC | Student Council of Information Technology and Computing </title>
+</head>
+<body>
+    <div id="main">
+        <header class="row">
+            <div class="header" class="col-12">
+                <img src="images/header20.png" class="header">
+            </div>
+        </header>
+        <div class="col-12">
+            <div class="navbar">
+                <a href="indexmain.html" class="active">HOME</a>
+                <div class="dropdown">
+                    <button class="dropbtn">ABOUT US</button>
+                        <div class="dropdown-content">           
+                            <a href="aboutus.htm">ABOUT US</a>
+                            <a href="visionandmission.htm">VISION AND MISSION</a>
+                        </div>
+                    </div>
+                        <a href="contactus.htm">CONTACT US</a>
+                        <a href="developer.htm">DEVELOPER's CORNER</a>
+                        <div class="dropdown">
+                            <button class="dropbtn">UNIT ORGANIZATIONS</button>
+                            <div class="dropdown-content">        
+                                <a href="icpep.htm">ICpEP-USTP</a>
+                                <a href="site.htm">SITE-USTP</a>
+                                <a href="sutcms.htm">SUTCMS-USTP</a>
+                                <a href="datascience.htm">DATA SCIENCE-USTP</a>
+                            </div>
+                        </div>
+            </div>
+        </div>                                      
+        <div class="col-12">
+            
+        </div>
+        <div class="row">
+            <div class="col-12" id="main-content">
+                <section class="section">
+                        <div class="row">
+                            <article class="col-12">
+                            <img src="images/contact us.png" class="kontak">
+                            <br><br><br>
+                            <fieldset id="field">
+                            <legend id="pi">Personal Information</legend>
+                            <form action="scitc.db" method="post">
+                            First name:<br>
+                            <input type="text" name="firstname"><br>
+                            Last name:<br>
+                            <input type="text" name="lastname"><br><br>
+                            Gender<br>
+                            <input type="radio" name="gender" value="male" checked> Male<br>
+                            <input type="radio" name="gender" value="female"> Female<br>
+                            <input type="radio" name="gender" value="other"> Other<br><br>
+                            Course<br>
+                            <input type="radio" name="course" value="computerengineering" checked> Computer Engineering<br>
+                            <input type="radio" name="course" value="informationtechnology"> Information Technology<br>
+                            <input type="radio" name="course" value="technologycommunicationmanagement"> Technology Communication Management<br>
+                            <input type="radio" name="course" value="datascience"> Data Science<br><br>
+                            <input type="submit" onclick="alert('Hello World!')" value="Submit">
+                            </form>
+                            </fieldset>
+                    </div>
+                            </article>
+                        </div>
+
+        <footer class="row">
+            <div class="col-12">
+                <p id="footer"> SCITC HOWLING LYCANS | © 2018 DANTHOLOGY </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

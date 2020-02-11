@@ -1,0 +1,56 @@
+#main-header{
+    position: center;
+    background-color: #15243c;
+}
+#main-nav{
+    border-bottom: 25px solid #223b62;
+}
+#main-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#main-menu > li {
+    float: left;
+}
+#main-menu > li > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    padding: 16px;
+    background-color: #15243c;
+}
+
+.active {
+    background-color: red;
+}
+#main-menu > li > a:hover{
+    background-color: #b380ff;
+}
+#main-logo{
+    width: 1280px;
+    height: 300px;
+}
+.section{
+    padding: 21px;
+}
+.headline-image{
+    width: 100%;
+}
+.headline-conatiner{
+    padding-right: 14px;
+}
+.vision{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Georgia"
+    color: white;
+
+}
+.mission{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Georgia";
+    color: white;
+}
